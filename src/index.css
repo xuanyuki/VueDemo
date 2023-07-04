@@ -1,0 +1,40 @@
+.page_w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.tw-font-bold {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.tw-font-bold {
+  font-weight: 700;
+}
+
+.tw-text-\[16px\] {
+  font-size: 16px;
+}
+
+.tw-text-\[14px\] {
+  font-size: 14px;
+}
+
+.result_header_item {
+  color: #909399;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.tw-line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+p.hover {
+  color: #3473e6;
+}
