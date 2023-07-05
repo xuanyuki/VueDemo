@@ -208,6 +208,10 @@ function rowClick(row, column, e) {
   window.open(href, '_blank');
 }
 
+watch(() => search.value.serviceTypeId, () => {
+  search.value.serviceTypeId2 = '';
+})
+
 function setService(obj) {
   search.value[obj.str] = obj.value;
   updataData();
